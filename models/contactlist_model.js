@@ -1,8 +1,8 @@
 'use strict'
 const mongoose = require('mongoose');
-const contactdetailsSchema = mongoose.Schema({
-    
 
+// Schema for ContactDetails
+const contactdetailsSchema = mongoose.Schema({
     name: { type: String, trim: true,
         lowercase: true, required: true,
         required: true,
